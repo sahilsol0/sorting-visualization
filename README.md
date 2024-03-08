@@ -1,4 +1,6 @@
-# sorting-visualization
+# sorting-visualization 
+![ChicagoFireSylvieBrettGIF](https://github.com/sahilsol0/sorting-visualization/assets/161235100/f8ccfb7d-93f6-4443-b327-ff945036a7bb)
+
 ## a visualization of common sorting algorithms
 Intended to help you better understand their working or make you more confused😅
 Currently only bubble sort, selection  sort and insertion sort implemented...
