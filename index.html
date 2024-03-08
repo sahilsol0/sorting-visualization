@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorting visualization</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>SORTING VISUALISATION</h1>
+    <div id="btn-wrapper">
+      <button type="button" class="sort-btn" id="new-array">New Array</button>
+      <button type="button" class="sort-btn" id="bubble">Bubble Sort</button>
+      <button type="button" class="sort-btn" id="selection">Selection Sort</button>
+      <button type="button" class="sort-btn" id="insertion">Insertion Sort</button>
+      <button type="button" class="sort-btn" id="merge">Merge Sort</button>
+      <button type="button" class="sort-btn" id="quick">Quick Sort</button>
+    </div>
+    
+    <div id="slider-wrapper">
+      <div class="slider">
+        <p>Speed</p>
+        <input type="range" id="speed" min="0" max="995" step="10">
+      </div>
+      <div class="slider">
+        <p>Size</p>
+        <input type="range" id="size" min="8" max="100">
+      </div>
+    </div>
+  </header>
+  <div id="vis-wrapper">
+    <canvas></canvas>
+  </div>
+  <script src="utility.js"></script>
+  <script src="sort.js"></script>
+  <script src="main.js"></script>
+  <script src="eventHandle.js"></script>
+</body>
+</html>
