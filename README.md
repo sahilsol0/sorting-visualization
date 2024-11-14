@@ -1,6 +1,4 @@
 # sorting-visualization 
-https://sortingitout.netlify.app/
-
 ![ChicagoFireSylvieBrettGIF](https://github.com/sahilsol0/sorting-visualization/assets/161235100/f8ccfb7d-93f6-4443-b327-ff945036a7bb)
 
 ## a visualization of common sorting algorithms
